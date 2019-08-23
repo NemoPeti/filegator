@@ -4,14 +4,23 @@
       <option value="">
         {{ lang('No pagination') }}
       </option>
-      <option value="5">
-        {{ lang('Per page', 5) }}
-      </option>
       <option value="10">
         {{ lang('Per page', 10) }}
       </option>
-      <option value="15">
-        {{ lang('Per page', 15) }}
+      <option value="20">
+        {{ lang('Per page', 20) }}
+      </option>
+      <option value="30">
+        {{ lang('Per page', 30) }}
+      </option>
+      <option value="40">
+        {{ lang('Per page', 40) }}
+      </option>
+      <option value="50">
+        {{ lang('Per page', 50) }}
+      </option>
+      <option value="100">
+        {{ lang('Per page', 100) }}
       </option>
     </b-select>
   </div>
