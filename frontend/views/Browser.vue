@@ -335,7 +335,7 @@ export default {
         })
     },
     getDownloadLink(item) {
-      return Vue.config.baseURL+'/download/'+btoa(item.path)
+      return Vue.config.baseURL+'/download/'+btoa(unescape(encodeURIComponent(item.path)))
     },
     download(item) {
       window.open(this.getDownloadLink(item), '_blank')
