@@ -165,7 +165,7 @@ export default {
   data() {
     return {
       dropZone: false,
-      perPage: '',
+      perPage: '30',
       currentPage: 1,
       checked: [],
       isLoading: false,
